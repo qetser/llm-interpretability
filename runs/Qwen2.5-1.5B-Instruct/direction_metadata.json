@@ -1,0 +1,24 @@
+{
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "pos": -1,
+  "layer": 21,
+  "refusal_toks": [
+    40
+  ],
+  "n_layers": 28,
+  "d_model": 1536,
+  "direction_norm": 38.89770619034988,
+  "scores": {
+    "baseline_harmful_refusal": 1.055437782131242,
+    "baseline_harmless_refusal": -5.538906776238353,
+    "relaxed_thresholds": {
+      "kl_threshold": 0.25,
+      "induce_refusal_threshold": 0.0
+    },
+    "position": -1,
+    "layer": 21,
+    "refusal_score": -5.788166714873978,
+    "steering_score": 0.8196997246337787,
+    "kl_div_score": 0.14799815876369835
+  }
+}

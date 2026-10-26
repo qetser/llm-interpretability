@@ -1,0 +1,21 @@
+{
+  "model": "allenai/OLMo-2-0425-1B-Instruct",
+  "pos": -1,
+  "layer": 8,
+  "refusal_toks": [
+    40
+  ],
+  "n_layers": 16,
+  "d_model": 2048,
+  "direction_norm": 5.930490872585179,
+  "scores": {
+    "baseline_harmful_refusal": 3.084898507753101,
+    "baseline_harmless_refusal": -7.319530544966474,
+    "relaxed_thresholds": null,
+    "position": -1,
+    "layer": 8,
+    "refusal_score": -7.210686761056995,
+    "steering_score": 1.6414658413995347,
+    "kl_div_score": 0.050674809402501735
+  }
+}

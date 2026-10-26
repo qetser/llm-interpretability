@@ -1,0 +1,167 @@
+{
+  "jailbreakbench": {
+    "baseline": {
+      "refusal_rate_substring": 0.99,
+      "refusal_rate_per_category": {
+        "Disinformation": 1.0,
+        "Economic harm": 1.0,
+        "Expert advice": 0.9,
+        "Fraud/Deception": 1.0,
+        "Government decision-making": 1.0,
+        "Harassment/Discrimination": 1.0,
+        "Malware/Hacking": 1.0,
+        "Physical harm": 1.0,
+        "Privacy": 1.0,
+        "Sexual/Adult content": 1.0
+      },
+      "n": 100
+    },
+    "ablation": {
+      "refusal_rate_substring": 0.02,
+      "refusal_rate_per_category": {
+        "Disinformation": 0.0,
+        "Economic harm": 0.0,
+        "Expert advice": 0.0,
+        "Fraud/Deception": 0.0,
+        "Government decision-making": 0.0,
+        "Harassment/Discrimination": 0.0,
+        "Malware/Hacking": 0.0,
+        "Physical harm": 0.1,
+        "Privacy": 0.0,
+        "Sexual/Adult content": 0.1
+      },
+      "n": 100
+    },
+    "actadd_remove": {
+      "refusal_rate_substring": 0.06,
+      "refusal_rate_per_category": {
+        "Disinformation": 0.0,
+        "Economic harm": 0.0,
+        "Expert advice": 0.0,
+        "Fraud/Deception": 0.0,
+        "Government decision-making": 0.1,
+        "Harassment/Discrimination": 0.0,
+        "Malware/Hacking": 0.1,
+        "Physical harm": 0.1,
+        "Privacy": 0.0,
+        "Sexual/Adult content": 0.3
+      },
+      "n": 100
+    }
+  },
+  "harmbench_test": {
+    "baseline": {
+      "refusal_rate_substring": 0.91,
+      "refusal_rate_per_category": {
+        "chemical_biological": 1.0,
+        "cybercrime_intrusion": 0.8181818181818182,
+        "harassment_bullying": 0.875,
+        "harmful": 0.8181818181818182,
+        "illegal": 0.9714285714285714,
+        "misinformation_disinformation": 0.9411764705882353
+      },
+      "n": 100
+    },
+    "ablation": {
+      "refusal_rate_substring": 0.04,
+      "refusal_rate_per_category": {
+        "chemical_biological": 0.0,
+        "cybercrime_intrusion": 0.0,
+        "harassment_bullying": 0.125,
+        "harmful": 0.09090909090909091,
+        "illegal": 0.02857142857142857,
+        "misinformation_disinformation": 0.058823529411764705
+      },
+      "n": 100
+    },
+    "actadd_remove": {
+      "refusal_rate_substring": 0.04,
+      "refusal_rate_per_category": {
+        "chemical_biological": 0.0,
+        "cybercrime_intrusion": 0.0,
+        "harassment_bullying": 0.0,
+        "harmful": 0.09090909090909091,
+        "illegal": 0.08571428571428572,
+        "misinformation_disinformation": 0.0
+      },
+      "n": 100
+    }
+  },
+  "advbench": {
+    "baseline": {
+      "refusal_rate_substring": 1.0,
+      "refusal_rate_per_category": {
+        "None": 1.0
+      },
+      "n": 100
+    },
+    "ablation": {
+      "refusal_rate_substring": 0.03,
+      "refusal_rate_per_category": {
+        "None": 0.03
+      },
+      "n": 100
+    },
+    "actadd_remove": {
+      "refusal_rate_substring": 0.24,
+      "refusal_rate_per_category": {
+        "None": 0.24
+      },
+      "n": 100
+    }
+  },
+  "strongreject": {
+    "baseline": {
+      "refusal_rate_substring": 0.95,
+      "refusal_rate_per_category": {
+        "Disinformation and deception": 0.8888888888888888,
+        "Hate, harassment and discrimination": 0.9444444444444444,
+        "Illegal goods and services": 0.95,
+        "Non-violent crimes": 0.9444444444444444,
+        "Sexual content": 1.0,
+        "Violence": 1.0
+      },
+      "n": 100
+    },
+    "ablation": {
+      "refusal_rate_substring": 0.0,
+      "refusal_rate_per_category": {
+        "Disinformation and deception": 0.0,
+        "Hate, harassment and discrimination": 0.0,
+        "Illegal goods and services": 0.0,
+        "Non-violent crimes": 0.0,
+        "Sexual content": 0.0,
+        "Violence": 0.0
+      },
+      "n": 100
+    },
+    "actadd_remove": {
+      "refusal_rate_substring": 0.03,
+      "refusal_rate_per_category": {
+        "Disinformation and deception": 0.0,
+        "Hate, harassment and discrimination": 0.0,
+        "Illegal goods and services": 0.05,
+        "Non-violent crimes": 0.05555555555555555,
+        "Sexual content": 0.07142857142857142,
+        "Violence": 0.0
+      },
+      "n": 100
+    }
+  },
+  "harmless": {
+    "baseline": {
+      "refusal_rate_substring": 0.05,
+      "refusal_rate_per_category": {
+        "None": 0.05
+      },
+      "n": 100
+    },
+    "actadd_induce": {
+      "refusal_rate_substring": 0.95,
+      "refusal_rate_per_category": {
+        "None": 0.95
+      },
+      "n": 100
+    }
+  }
+}

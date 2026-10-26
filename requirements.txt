@@ -1,0 +1,17 @@
+torch==2.6.0  # cu124 wheel: server driver is CUDA 12.5
+transformers>=4.46,<5
+accelerate>=0.34
+datasets>=2.19
+einops
+jaxtyping
+numpy
+matplotlib
+tqdm
+pyyaml
+sentencepiece
+protobuf
+lm-eval>=0.4.5
+fastapi
+uvicorn[standard]
+nvidia-ml-py
+httpx

@@ -1,0 +1,11 @@
+# Publicly available (ungated) instruct models, none of them from the original paper.
+# gb = approx GPU memory needed to serve (used by the load balancer).
+# All use the tokenizer's own chat template, so no per-family code is needed.
+# 20GB MIG slices: keep bf16 footprint under ~12GB.
+models:
+  - id: Qwen/Qwen2.5-0.5B-Instruct
+    gb: 1.8      # smoke-test model
+  - id: Qwen/Qwen2.5-1.5B-Instruct
+    gb: 4.2
+  - id: allenai/OLMo-2-0425-1B-Instruct
+    gb: 3.8
